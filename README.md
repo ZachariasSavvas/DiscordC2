@@ -2,7 +2,7 @@
 
 A sophisticated Discord-based Command & Control (C2) framework with advanced anti-reverse engineering capabilities, process injection, and comprehensive system reconnaissance tools.
 
-## 🚀 Features
+## Features
 
 ### Core C2 Capabilities
 - **Discord-based communication** - Secure command execution via Discord channels
@@ -32,7 +32,7 @@ A sophisticated Discord-based Command & Control (C2) framework with advanced ant
 - **UPX compression** - Additional layer of obfuscation
 - **Debug symbol stripping** - Remove analysis metadata
 
-## 📋 Requirements
+## Requirements
 
 ### For Building
 ```bash
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 - `pyinstaller==5.13.0` - Executable generation
 - `psutil==5.9.8` - Process management
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -72,7 +72,7 @@ pip install -r requirements.txt
    - Create an `api.json` file with your configuration (see Configuration section)
    - Or run the builder interactively
 
-## ⚙️ Configuration
+## Configuration
 
 Create an `api.json` file with the following structure:
 
@@ -101,7 +101,7 @@ Create an `api.json` file with the following structure:
 - **obfuscate**: Enable code obfuscation (true/false)
 - **build_key**: Additional encryption key for build-time protection
 
-## 🏗️ Building
+## Building
 
 ### Generate Payload
 ```bash
@@ -120,7 +120,7 @@ The builder will:
 - **bat**: Batch file
 - **py**: Python script
 
-## 📱 Available Commands
+## Available Commands
 
 ### System Information
 - `!info` - Detailed system information (CPU, GPU, RAM, OS)
@@ -157,7 +157,7 @@ The builder will:
 - `!delete` - Toggle auto-deletion of responses
 - `!update <url>` - Update code from URL
 
-## 🔒 Security Features
+## Security Features
 
 ### Anti-Reverse Engineering
 - **Encrypted Configuration**: All sensitive values encrypted with build-time keys
@@ -177,7 +177,7 @@ The builder will:
 - **Authorized Users**: Restrict access to specific Discord users
 - **Auto-deletion**: Optional automatic message deletion
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Discord-C2/
@@ -198,19 +198,19 @@ Discord-C2/
     └── ...
 ```
 
-## 🚨 Legal Disclaimer
+## Legal Disclaimer
 
 This tool is provided for **educational and authorized testing purposes only**. Users are responsible for ensuring they have proper authorization before using this tool on any system. The authors are not responsible for any misuse of this software.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## ⚠️ Important Notes
+## Important Notes
 
 1. **Authorization Required**: Only use on systems you own or have explicit permission to test
 2. **Discord Terms**: Ensure compliance with Discord's Terms of Service
@@ -218,7 +218,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. **Updates**: Keep dependencies updated for security patches
 5. **Backup**: Always backup important data before testing
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 - **PyInstaller not found**: Install with `pip install pyinstaller`
